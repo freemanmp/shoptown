@@ -1,0 +1,2 @@
+module BuyregHelper
+end

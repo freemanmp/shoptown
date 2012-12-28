@@ -1,0 +1,1746 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (4.2ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (9.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+  [4;35;1mSQL (3.0ms)[0m   [0mCREATE TABLE `products` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `code` varchar(255), `description` text, `characteristic` text, `categoty` varchar(255), `price` varchar(255), `sale` varchar(255), `stock` varchar(255), `present` varchar(255), `image1` varchar(255), `image2` varchar(255), `image3` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20121227144043')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (10.7ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (10.8ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (11.6ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (11.4ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (10.9ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (10.5ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (11.9ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (10.7ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 19:34:49) [GET]
+
+NameError (uninitialized constant WelcomeController):
+  
+
+Rendered rescues/_trace (35.7ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 19:34:54) [GET]
+
+NameError (uninitialized constant WelcomeController):
+  
+
+Rendered rescues/_trace (23.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BuyregController#buyerregistration (for 195.234.4.50 at 2012-12-27 19:37:24) [GET]
+Rendering buyreg/buyerregistration
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://shoptown.com.ua/buyreg/buyerregistration]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 19:37:34) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (23.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 19:37:52) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (57.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 19:47:46) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (22.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:02:13) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (22.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:18:42) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (26.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:31:08) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (26.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:32:02) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (96.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:32:04) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (25.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:32:11) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (23.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:32:12) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (58.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:32:15) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:32:23) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (23.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:57:29) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (25.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:57:34) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (24.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 21:58:07) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (80.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:00:13) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (25.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:00:14) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (26.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:00:19) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (59.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:00:58) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (33.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:01:19) [GET]
+
+ActionController::RoutingError (No route matches "/product" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:01:23) [GET]
+
+ActionController::RoutingError (No route matches "/product" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:01:56) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (70.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:17:46) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (25.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:22:45) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (57.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 22:29:56) [GET]
+
+ActionController::RoutingError (No route matches "/product" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+Migrating to AddDate (20121227202850)
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20121227202850')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (10.3ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (8.7ms)[0m   [0;1mdescribe `products`[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#index (for 195.234.4.50 at 2012-12-27 23:04:08) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:05:13) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (37.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:05:16) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (30.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:05:26) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (27.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:05:29) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (23.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#product (for 195.234.4.50 at 2012-12-27 23:06:29) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (63.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#products (for 195.234.4.50 at 2012-12-27 23:06:37) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (27.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#products (for 195.234.4.50 at 2012-12-27 23:08:07) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (22.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#products to html (for 195.234.4.50 at 2012-12-27 23:08:27) [GET]
+  Parameters: {"id"=>"index"}
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (57.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:08:34) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:10:52) [GET]
+
+NameError (uninitialized constant WelcomeController):
+  
+
+Rendered rescues/_trace (20.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:32) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:41) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:44) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:48) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:50) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:52) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:53) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:55) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:56) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:57) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:58) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:11:59) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:12:01) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:12:02) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:12:56) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:12:58) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:13:01) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:15:06) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:15:07) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:04) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:14) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:16) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:17) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:20) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:24) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:28) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:30) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:31) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:32) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:38) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:39) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:46) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:17:50) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:19:37) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:19:40) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:19:41) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:19:42) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:21:01) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (30.2ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:21:23) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BuyregController#buyerregistration (for 195.234.4.50 at 2012-12-27 23:25:13) [GET]
+Rendering buyreg/buyerregistration
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://shoptown.com.ua/buyreg/buyerregistration]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BuyregController#index (for 195.234.4.50 at 2012-12-27 23:25:16) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: buyerregistration):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#index (for 195.234.4.50 at 2012-12-27 23:26:21) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: products):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:26:29) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:29:29) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:30:22) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:30:23) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:30:24) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:30:25) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:30:25) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:30:25) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products to html (for 195.234.4.50 at 2012-12-27 23:31:46) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:32:22) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:32:23) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:32:24) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:32:25) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#index (for 195.234.4.50 at 2012-12-27 23:32:30) [GET]
+Rendering item/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #19 of app/views/item/index.rhtml:
+16:     <th>Image3</th>
+17:   </tr>
+18: 
+19: <% @products.each do |product| %>
+20:   <tr>
+21:     <td><%=h product.name %></td>
+22:     <td><%=h product.code %></td>
+
+    app/views/item/index.rhtml:19:in `_run_rhtml_app47views47item47index46rhtml'
+
+Rendered rescues/_trace (32.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#index (for 195.234.4.50 at 2012-12-27 23:33:36) [GET]
+Rendering item/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #19 of app/views/item/index.rhtml:
+16:     <th>Image3</th>
+17:   </tr>
+18: 
+19: <% @products.each do |product| %>
+20:   <tr>
+21:     <td><%=h product.name %></td>
+22:     <td><%=h product.code %></td>
+
+    app/views/item/index.rhtml:19:in `_run_rhtml_app47views47item47index46rhtml'
+
+Rendered rescues/_trace (79.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BuyregController#index (for 195.234.4.50 at 2012-12-27 23:33:49) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: buyerregistration):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BuyregController#index (for 195.234.4.50 at 2012-12-27 23:34:15) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: buyerregistration):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#index (for 195.234.4.50 at 2012-12-27 23:34:22) [GET]
+Rendering item/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #19 of app/views/item/index.rhtml:
+16:     <th>Image3</th>
+17:   </tr>
+18: 
+19: <% @products.each do |product| %>
+20:   <tr>
+21:     <td><%=h product.name %></td>
+22:     <td><%=h product.code %></td>
+
+    app/views/item/index.rhtml:19:in `_run_rhtml_app47views47item47index46rhtml'
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#index (for 195.234.4.50 at 2012-12-27 23:34:23) [GET]
+Rendering item/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #19 of app/views/item/index.rhtml:
+16:     <th>Image3</th>
+17:   </tr>
+18: 
+19: <% @products.each do |product| %>
+20:   <tr>
+21:     <td><%=h product.name %></td>
+22:     <td><%=h product.code %></td>
+
+    app/views/item/index.rhtml:19:in `_run_rhtml_app47views47item47index46rhtml'
+
+Rendered rescues/_trace (32.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:34:41) [GET]
+
+NameError (uninitialized constant WelcomeController):
+  
+
+Rendered rescues/_trace (20.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BuyregController#index (for 195.234.4.50 at 2012-12-27 23:34:42) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: buyerregistration):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BuyregController#index (for 195.234.4.50 at 2012-12-27 23:34:43) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: buyerregistration):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BuyregController#index (for 195.234.4.50 at 2012-12-27 23:34:43) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: buyerregistration):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#index (for 195.234.4.50 at 2012-12-27 23:35:30) [GET]
+Rendering item/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #19 of app/views/item/index.rhtml:
+16:     <th>Image3</th>
+17:   </tr>
+18: 
+19: <% @products.each do |product| %>
+20:   <tr>
+21:     <td><%=h product.name %></td>
+22:     <td><%=h product.code %></td>
+
+    app/views/item/index.rhtml:19:in `_run_rhtml_app47views47item47index46rhtml'
+
+Rendered rescues/_trace (32.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BuyregController#buyerregistration (for 195.234.4.50 at 2012-12-27 23:36:18) [GET]
+Rendering buyreg/buyerregistration
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://shoptown.com.ua/buyreg/buyerregistration]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:36:27) [GET]
+
+ActionController::RoutingError (No route matches "/item/products/index.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:39:15) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:39:16) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (36.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:39:17) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (60.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:48:13) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (40.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:48:16) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (69.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:48:17) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (24.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:48:17) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#new (for 195.234.4.50 at 2012-12-27 23:54:37) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (71.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#new (for 195.234.4.50 at 2012-12-27 23:55:21) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (24.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-27 23:55:31) [GET]
+
+ActionController::RoutingError (No route matches "/item/new.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#new (for 195.234.4.50 at 2012-12-27 23:56:33) [GET]
+Rendering item/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/item/new.html.erb:
+1: <h1>New product</h1>
+2: 
+3: <% form_for(@product) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+
+    app/views/item/new.html.erb:3
+
+Rendered rescues/_trace (100.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:57:03) [GET]
+
+ActionController::UnknownAction (No action responded to products. Actions: new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:57:26) [GET]
+
+ActionController::UnknownAction (No action responded to products. Actions: new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:57:34) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:58:12) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#products (for 195.234.4.50 at 2012-12-27 23:58:18) [GET]
+
+ActionView::MissingTemplate (Missing template item/products.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ItemController#index (for 195.234.4.50 at 2012-12-27 23:59:14) [GET]
+Rendering item/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #19 of app/views/item/index.rhtml:
+16:     <th>Image3</th>
+17:   </tr>
+18: 
+19: <% @products.each do |product| %>
+20:   <tr>
+21:     <td><%=h product.name %></td>
+22:     <td><%=h product.code %></td>
+
+    app/views/item/index.rhtml:19:in `_run_rhtml_app47views47item47index46rhtml'
+
+Rendered rescues/_trace (30.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-28 00:00:46) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#products (for 195.234.4.50 at 2012-12-28 00:00:55) [GET]
+
+NoMethodError (undefined method `scaffold' for ItemController:Class):
+  app/controllers/item_controller.rb:2
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 195.234.4.50 at 2012-12-28 00:04:23) [GET]
+  [4;35;1mProduct Load (1.6ms)[0m   [0mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 42ms (View: 8, DB: 2) | 200 OK [http://shoptown.com.ua/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 195.234.4.50 at 2012-12-28 00:04:36) [GET]
+  [4;35;1mProduct Columns (14.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 53ms (View: 34, DB: 15) | 200 OK [http://shoptown.com.ua/products/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 195.234.4.50 at 2012-12-28 00:05:52) [GET]
+  [4;35;1mProduct Columns (10.7ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 19ms (View: 5, DB: 11) | 200 OK [http://shoptown.com.ua/products/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 195.234.4.50 at 2012-12-28 00:06:19) [GET]
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://shoptown.com.ua/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 195.234.4.50 at 2012-12-28 00:06:20) [GET]
+  [4;35;1mProduct Columns (12.5ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 21ms (View: 5, DB: 13) | 200 OK [http://shoptown.com.ua/products/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 195.234.4.50 at 2012-12-28 00:06:23) [GET]
+  [4;35;1mProduct Columns (11.7ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 22ms (View: 7, DB: 12) | 200 OK [http://shoptown.com.ua/products/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 195.234.4.50 at 2012-12-28 00:06:24) [GET]
+  [4;35;1mProduct Columns (11.2ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 24ms (View: 8, DB: 11) | 200 OK [http://shoptown.com.ua/products/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 195.234.4.50 at 2012-12-28 00:06:26) [GET]
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://shoptown.com.ua/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 195.234.4.50 at 2012-12-28 00:06:32) [GET]
+  [4;35;1mProduct Columns (14.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 27ms (View: 8, DB: 15) | 200 OK [http://shoptown.com.ua/products/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#create (for 195.234.4.50 at 2012-12-28 00:07:18) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"iWcveXL6oXUxZwAuS+19s9TlW5qetCSTmA4ShIDIlTI=", "product"=>{"name"=>"рвпрвыпва", "price"=>"првпрвап", "code"=>"34234", "image1"=>"укеукеук", "stock"=>"ываыва", "image2"=>"ввап", "present"=>"рпвапрвап", "characteristic"=>"вапмрп", "image3"=>"вапвап", "description"=>"ываываыва", "sale"=>"ываыва", "categoty"=>"вапвап"}}
+  [4;35;1mProduct Columns (15.5ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Create (0.5ms)[0m   [0mINSERT INTO `products` (`name`, `updated_at`, `code`, `price`, `stock`, `image1`, `characteristic`, `present`, `image2`, `description`, `image3`, `sale`, `categoty`, `created_at`) VALUES('рвпрвыпва', '2012-12-27 22:07:18', '34234', 'првпрвап', 'ываыва', 'укеукеук', 'вапмрп', 'рпвапрвап', 'ввап', 'ываываыва', 'вапвап', 'ываыва', 'вапвап', '2012-12-27 22:07:18')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://shoptown.com.ua/products/1
+Completed in 25ms (DB: 16) | 302 Found [http://shoptown.com.ua/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 195.234.4.50 at 2012-12-28 00:07:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Columns (12.7ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 23ms (View: 6, DB: 13) | 200 OK [http://shoptown.com.ua/products/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#edit (for 195.234.4.50 at 2012-12-28 00:07:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Columns (10.5ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 1) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 22ms (View: 8, DB: 11) | 200 OK [http://shoptown.com.ua/products/1/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 195.234.4.50 at 2012-12-28 00:08:00) [GET]
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (13.7ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 23ms (View: 6, DB: 14) | 200 OK [http://shoptown.com.ua/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#create (for 195.234.4.50 at 2012-12-28 00:12:55) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"s/ti2xH/tMxmqWYhbfvdYlEIb4o7Izz+DHyuSgLb1Fc=", "product"=>{"name"=>"Компьютер", "price"=>"1000 грн", "code"=>"2121", "image1"=>"ырап/воалывюкн.ке", "stock"=>"3 по цене 2-х", "image2"=>"ырап/воалывюкн.ке", "present"=>"на складе", "characteristic"=>"2000 Мгц", "image3"=>"ырап/воалывюкн.ке", "description"=>"Пентиум", "sale"=>"5%", "categoty"=>"комп"}}
+  [4;35;1mProduct Columns (13.9ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Create (0.5ms)[0m   [0mINSERT INTO `products` (`name`, `updated_at`, `code`, `price`, `stock`, `image1`, `characteristic`, `present`, `image2`, `description`, `image3`, `sale`, `categoty`, `created_at`) VALUES('Компьютер', '2012-12-27 22:12:55', '2121', '1000 грн', '3 по цене 2-х', 'ырап/воалывюкн.ке', '2000 Мгц', 'на складе', 'ырап/воалывюкн.ке', 'Пентиум', 'ырап/воалывюкн.ке', '5%', 'комп', '2012-12-27 22:12:55')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://shoptown.com.ua/products/2
+Completed in 26ms (DB: 15) | 302 Found [http://shoptown.com.ua/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 195.234.4.50 at 2012-12-28 00:12:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Columns (10.9ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 2) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 18ms (View: 3, DB: 11) | 200 OK [http://shoptown.com.ua/products/2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#edit (for 195.234.4.50 at 2012-12-28 00:13:08) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Columns (14.1ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 2) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 25ms (View: 6, DB: 14) | 200 OK [http://shoptown.com.ua/products/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#update (for 195.234.4.50 at 2012-12-28 00:13:15) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"s/ti2xH/tMxmqWYhbfvdYlEIb4o7Izz+DHyuSgLb1Fc=", "product"=>{"name"=>"Компьютер", "price"=>"1000 грн", "code"=>"2121", "image1"=>"ырап/воалывюкн.ке", "stock"=>"3 по цене 2-х", "image2"=>"ырап/воалывюкн.ке3", "present"=>"на складе", "characteristic"=>"2000 Мгц", "image3"=>"ырап/воалывюкн.ке", "description"=>"Пентиум", "sale"=>"5%", "categoty"=>"комп"}, "id"=>"2"}
+  [4;36;1mProduct Columns (10.1ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Update (0.2ms)[0m   [0mUPDATE `products` SET `image2` = 'ырап/воалывюкн.ке3', `updated_at` = '2012-12-27 22:13:15' WHERE `id` = 2[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://shoptown.com.ua/products/2
+Completed in 19ms (DB: 11) | 302 Found [http://shoptown.com.ua/products/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 195.234.4.50 at 2012-12-28 00:13:15) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Columns (11.7ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 2) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 22ms (View: 3, DB: 12) | 200 OK [http://shoptown.com.ua/products/2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 195.234.4.50 at 2012-12-28 00:13:18) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;36;1mProduct Columns (11.8ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+Completed in 22ms (View: 5, DB: 13) | 200 OK [http://shoptown.com.ua/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#destroy (for 195.234.4.50 at 2012-12-28 00:13:54) [DELETE]
+  Parameters: {"authenticity_token"=>"s/ti2xH/tMxmqWYhbfvdYlEIb4o7Izz+DHyuSgLb1Fc=", "id"=>"2"}
+  [4;36;1mProduct Columns (10.7ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` WHERE (`products`.`id` = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Destroy (0.3ms)[0m   [0mDELETE FROM `products` WHERE `id` = 2[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://shoptown.com.ua/products
+Completed in 16ms (DB: 11) | 302 Found [http://shoptown.com.ua/products/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 195.234.4.50 at 2012-12-28 00:13:54) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (11.7ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 23ms (View: 6, DB: 12) | 200 OK [http://shoptown.com.ua/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-28 00:14:42) [GET]
+
+NameError (uninitialized constant ItemController):
+  
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#index (for 195.234.4.50 at 2012-12-28 00:15:12) [GET]
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM `products` [0m
+Rendering template within layouts/products
+Rendering products/index
+  [4;35;1mProduct Columns (11.1ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Completed in 19ms (View: 5, DB: 11) | 200 OK [http://shoptown.com.ua/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 195.234.4.50 at 2012-12-28 00:15:56) [GET]
+  [4;35;1mProduct Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 18ms (View: 5, DB: 10) | 200 OK [http://shoptown.com.ua/products/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#new (for 195.234.4.50 at 2012-12-28 00:19:11) [GET]
+
+NameError (uninitialized constant ItemController):
+  
+
+Rendered rescues/_trace (62.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-28 00:19:54) [GET]
+
+ActionController::RoutingError (No route matches "/item/new.html.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#new (for 195.234.4.50 at 2012-12-28 00:28:26) [GET]
+  [4;35;1mProduct Columns (9.6ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 18ms (View: 5, DB: 10) | 200 OK [http://shoptown.com.ua/products/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+Migrating to AddDate (20121227202850)
+Migrating to CreateUsers (20121227223411)
+  [4;35;1mSQL (12.6ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20121227223411')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (13.7ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (13.1ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;35;1mSQL (11.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (12.1ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+Migrating to AddDate (20121227202850)
+Migrating to CreateUsers (20121227223411)
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (12.1ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (12.6ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;35;1mSQL (12.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (11.7ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+Migrating to AddDate (20121227202850)
+Migrating to CreateUsers (20121227223412)
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: Table 'users' already exists: CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `hashed_password` varchar(255), `salt` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+Migrating to AddDate (20121227202850)
+Migrating to CreateUsers (20121227223411)
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (14.2ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (9.8ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;35;1mSQL (11.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (10.9ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProductsController#show (for 195.234.4.50 at 2012-12-28 00:47:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Columns (15.8ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM `products` WHERE (`products`.`id` = 2) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=2):
+  app/controllers/products_controller.rb:16:in `show'
+
+Rendered rescues/_trace (26.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-28 09:54:19) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20121227144043)
+Migrating to AddDate (20121227202850)
+Migrating to CreateUsers (20121227223411)
+Migrating to AddUsers (20121228115027)
+  [4;35;1mSQL (32.1ms)[0m   [0mALTER TABLE `users` ADD `name` varchar(255)[0m
+  [4;36;1mSQL (7.5ms)[0m   [0;1mALTER TABLE `users` ADD `hashed_password` varchar(255)[0m
+  [4;35;1mSQL (9.0ms)[0m   [0mALTER TABLE `users` ADD `salt` varchar(255)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20121228115027')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (16.1ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;35;1mSQL (14.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (13.1ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 195.234.4.50 at 2012-12-28 20:03:57) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
